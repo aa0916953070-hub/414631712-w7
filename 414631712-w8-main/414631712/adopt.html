@@ -30,13 +30,21 @@
       <input type="tel" id="phone" name="phone" placeholder="0912-345-678" required>
 
       <label for="animal">想領養的動物：</label>
-      <select id="animal" name="animal" required>
-        <option value="">請選擇動物</option>
-        <option>狗狗：小福</option>
-        <option>狗狗：多多</option>
-        <option>貓咪：拉拉</option>
-        <option>貓咪：大斑</option>
-      </select>
+            <select id="animal" name="animal" required>
+                <option value="">請選擇動物</option>
+                <optgroup label="🐶 狗狗">
+                    <option value="柴犬小福">柴犬小福</option>
+                    <option value="拉布拉多多多">拉布拉多多多</option>
+                </optgroup>
+                <optgroup label="🐱 貓咪">
+                    <option value="美短拉拉">美短拉拉</option>
+                    <option value="虎斑大斑">虎斑大斑</option>
+                </optgroup>
+                <optgroup label="🐹 其他小動物">
+                    <option value="天竺鼠小米">天竺鼠小米</option>
+                    <option value="鸚鵡阿飛">鸚鵡阿飛</option>
+                </optgroup>
+            </select>
 
       <p>居住環境：</p>
       <label><input type="radio" name="house" value="apartment"> 公寓</label>
@@ -62,19 +70,4 @@
   </footer>
 </body>
 </html>
-            <label for="animal">想領養的動物：</label>
-            <select id="animal" name="animal" required>
-                <option value="">請選擇動物</option>
-                <optgroup label="🐶 狗狗">
-                    <option value="柴犬小福">柴犬小福</option>
-                    <option value="拉布拉多多多">拉布拉多多多</option>
-                </optgroup>
-                <optgroup label="🐱 貓咪">
-                    <option value="美短拉拉">美短拉拉</option>
-                    <option value="虎斑大斑">虎斑大斑</option>
-                </optgroup>
-                <optgroup label="🐹 其他小動物">
-                    <option value="天竺鼠小米">天竺鼠小米</option>
-                    <option value="鸚鵡阿飛">鸚鵡阿飛</option>
-                </optgroup>
-            </select>
+            
